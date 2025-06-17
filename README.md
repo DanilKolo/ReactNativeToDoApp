@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# Мобільний Додаток "Список Завдань" (React Native To-Do App)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Цей простий мобільний додаток дозволяє користувачам створювати, переглядати, позначати як виконані та видаляти завдання. Дані завдань зберігаються локально на пристрої за допомогою `AsyncStorage`, тому вони зберігаються навіть після закриття додатку.
 
-## Get started
+## Функціонал
 
-1. Install dependencies
+* Додавання нових завдань.
+* Позначення завдань як виконаних.
+* Видалення завдань.
+* Локальне збереження завдань за допомогою `AsyncStorage`.
+* Інтуїтивно зрозумілий та чистий інтерфейс.
 
-   ```bash
-   npm install
-   ```
+## Використані Технології
 
-2. Start the app
+* [React Native](https://reactnative.dev/)
+* [Expo](https://expo.dev/)
+* [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/docs/usage) для локального зберігання даних.
 
-   ```bash
-   npx expo start
-   ```
+## Скріншоти
 
-In the output, you'll find options to open the app in a
+## Як Запустити Проєкт Локально
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Щоб запустити цей додаток на вашому локальному пристрої:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1.  **Клонуйте репозиторій:**
+    ```bash
+    git clone [https://github.com/DanilKolo/ReactNativeToDoApp.git](https://github.com/DanilKolo/ReactNativeToDoApp.git)
+    ```
+2.  **Перейдіть в папку проєкту:**
+    ```bash
+    cd ReactNativeToDoApp
+    ```
+3.  **Встановіть залежності:**
+    ```bash
+    npm install
+    ```
+4.  **Запустіть додаток (переконайтеся, що у вас встановлено додаток Expo Go на телефоні/емуляторі):**
+    ```bash
+    npx expo start
+    ```
+    Після запуску, відскануйте QR-код, який відображається у терміналі, за допомогою додатку Expo Go на вашому мобільному пристрої.
 
-## Get a fresh project
+## Автор
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Данило Коломієць
